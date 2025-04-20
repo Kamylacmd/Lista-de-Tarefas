@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+
+
+    <div class="clipboard-container">
+        <div class="clipboard-clip">
+
+        </div>
+        <div class="clipboard-base-container">
+            <div class="clipboard-informations">
+                <h2>Lista de Tarefas</h2>
+    
+                <p>Em meio a rotina, esquecemos de diversos afazeres.<br>
+                    Escreva seus afazeres para se organizar melhor <br> no seu cotidiano, sem desespero.
+                </p>
+
+                <label for="">Insira sua tarefa:</label>
+                <input type="text" id="Tarefa">
+                <button onclick="AdicionarTarefa()">Enviar</button>
+                
+                <div class="clipboard-cont">
+                    <h3>Tarefas:</h3>
+                    <p id="contador">0/10</p>
+                </div>
+
+                <ul class="clipboard-list" id="TarefasAdicionadas">
+    
+                </ul>
+            </div>
+            <div class="clipboard-img">
+
+            </div>
+        </div>
+    </div>
+
+        <div class="music-container">
+            <h3>- - -<span>୨</span></h3>
+            <div class="music-buttons">
+                <button onclick="tocarMusica()"><img src="./img/svg/icons8-reproduzir-96.png" alt=""></button>
+                <button onclick="pararMusica()"><img src="./img/svg/icons8-pausa-96.png" alt=""></button>
+                <button onclick="abaixarVolume()"><img src="./img/svg/icons8-low-volume-96.png" alt=""></button>
+            </div>
+            <h3><span>ৎ</span>- - -</h3>
+        </div>
+    <audio id="musica" loop>
+        <source src="./audios/MusicaNOCOPYRIGHTLofi-hiphop.mp3" type="audio/mp3">
+        Seu navegador não suporta o elemento de áudio.
+      </audio>
+      
+    
+    <script src="./script/script.js"></script>
+
+</body>
+</html>
