@@ -50,7 +50,7 @@ Eu, **Kamyla**, autorizo que o projeto seja utilizado como inspiração para fut
 <br>
 
 ---
-<div style="color: gray;">
+<div style= "color: gray;">
     <small>© 2025 <strong>Kamylacmd</strong> — Este projeto é de minha autoria. Todos os direitos reservados. Sinta-se livre para se inspirar, mas lembre-se de dar os devidos créditos. ✨</small>
 </div>
 
